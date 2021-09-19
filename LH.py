@@ -55,7 +55,6 @@ def doCheck():
     except TencentCloudSDKException as err:
         print(err)
 
-
 def dofetch(id, key, region):
     # 以下不用管
     global gaojinSatus
